@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <ul class="menu__list" id="menu">
+                        <div class="hamburger" id="hamb">
+                            <div class="hamb__field">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <div class="secondPart">
+                                    <li><a href="" class="menu__link">ОПЛАТА И ДОСТАВКА</a></li>
+                                    <li><a href="" class="menu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
+                                    <li><a href="" class="menu__link">КОНТАКТЫ</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <li><a href="" class="menu__link">NEW</a></li>
+                        <li><a href="" class="menu__link">КАТАЛОГ</a></li>
+                        <li><a href="" class="menu__link">О НАС</a></li>
+
+                    </ul>
+
+                    <div class="logo">
+                        YANKI
+                    </div>
+                    <div class="header__dropdown">
+                        <div class="language">
+                            <div class="dropdown" onclick="myFunction()">
+                                <button class="dropbtn" > RU
+
+                                    <img id="dropdown__img" src="./icons/Vector.png" alt="">
+                                </button>
+                                <hr>
+                                <div class="dropdown-content" id="myDropdown">
+                                    <a href="#">EN</a>
+                                    <hr>
+                                    <a href="#">UA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="currency">
+                            <div class="dropdown2" onclick="myFunction2()">
+                                <button class="dropbtn" > UAH
+
+                                    <img id="dropdown__img2" src="./icons/Vector.png" alt="">
+                                </button>
+                                <hr>
+                                <div class="dropdown-content" id="myDropdown2">
+                                    <a href="#">USD</a>
+                                    <hr>
+                                    <a href="#">EUR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__assets">
+                        <ul class="assets">
+                            <li><a href="#" class="assets__link"><img src="./icons/search.png" alt=""></a></li>
+                            <li><a href="#" class="assets__link"><img src="./icons/acc.png" alt=""></a></li>
+                            <li><a href="#" class="assets__link"><img src="./icons/favorites.png" alt=""></a></li>
+                            <li><a href="#" class="assets__link"><img src="./icons/korzina.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="popup" id="popup"></div>
+        <div class="header__info">
+            <div class="header__title">
+                Новая коллекция
+            </div>
+            <hr>
+            <div class="header__subtitle">
+                <a href="#">Смотреть Новинки</a> <img src="./icons/Vector.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="categories">
+        <div class="container">
+            <div class="categories__title">
+                Категории
+            </div>
+            <div class="categories__items">
+                <div class="categories__item"><img class="categories__img" src="./image/jackets.png" alt="">
+                    <div class="categories__item__name">
+                        Куртки
+                    </div>
+                </div>
+                <div class="categories__item"><img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
+                    Пальто
+                </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
+                    Шубы
+                </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
+                    Парки
+                    </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/jackets.png" alt=""><div class="categories__item__name">
+                    Куртки
+                    </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
+                    Пальто
+                    </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
+                    Шубы
+                    </div></div>
+                <div class="categories__item"><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
+                    Парки
+                    </div></div>
+            </div>
+        </div>
+    </section>
+    <section class="response">
+        <div class="response__title">
+            Узнайте  первым о новинках
+        </div>
+        <div class="response__info">
+            <div><input class="response__field" type="text" placeholder="Ваш e-mail*"></div>
+            <a class="response__button" href="">ПОДПИСАТЬСЯ</a>
+            <p class="response__accept">
+                Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.
+
+            </p>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
