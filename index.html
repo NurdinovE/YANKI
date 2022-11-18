@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>YANKI</title>
 </head>
 <body>
     <div class="wrapper">
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <li><a href="" class="menu__link">NEW</a></li>
-                        <li><a href="" class="menu__link">КАТАЛОГ</a></li>
+                        <li><a href="./src/Catalog/catalog.html" class="menu__link">КАТАЛОГ</a></li>
                         <li><a href="" class="menu__link">О НАС</a></li>
 
                     </ul>
@@ -101,32 +101,32 @@
                 Категории
             </div>
             <div class="categories__items">
-                <div class="categories__item"><img class="categories__img" src="./image/jackets.png" alt="">
+                <div class="categories__item"><a href=""><img class="categories__img" src="" alt="">
                     <div class="categories__item__name">
                         Куртки
-                    </div>
+                    </div></a>
                 </div>
-                <div class="categories__item"><img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
                     Пальто
-                </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
                     Шубы
-                </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
                     Парки
-                    </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/jackets.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/jackets.png" alt=""><div class="categories__item__name">
                     Куртки
-                    </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href="">  <img class="categories__img" src="./image/coats.png" alt=""><div class="categories__item__name">
                     Пальто
-                    </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/furcoats.png" alt=""><div class="categories__item__name">
                     Шубы
-                    </div></div>
-                <div class="categories__item"><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
+                </div></a></div>
+                <div class="categories__item"><a href=""><img class="categories__img" src="./image/parks.png" alt=""><div class="categories__item__name">
                     Парки
-                    </div></div>
+                </div></a></div>
             </div>
         </div>
     </section>
@@ -143,6 +143,78 @@
             </p>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__dropdown" onclick="myFooterFunction()">
+                    <button class="footer__dropbtn" > КОМПАНИЯ
+
+                        <img id="footer__dropdown__img1" src="./icons/Vector.png" alt="">
+                    </button>
+                    <hr>
+                    <div class="footer__dropdown-content" id="myFooterDropdown1">
+                        <div><a href="#">О нас
+                        </a></div>
+                        <hr>
+                        <div><a href="#">Контакты</a></div>
+                    </div>
+                </div>
+                <div class="footer__dropdown" onclick="myFooterFunction()">
+                    <button class="footer__dropbtn" > ПОЛЕЗНОЕ
+
+                        <img id="footer__dropdown__img2" src="./icons/Vector.png" alt="">
+                    </button>
+                    <hr>
+                    <div class="footer__dropdown-content" id="myFooterDropdown2">
+                        <div><a href="#">Оплата и доставка
+
+                        </a></div>
+                        <hr>
+                        <div><a href="#">Условия возврата
+                        </a></div>
+                        <div><a href="#">Бонусная система
+                    </a></div>
+                    </div>
+                </div>
+                <div class="footer__dropdown" onclick="myFooterFunction()">
+                    <button class="footer__dropbtn" > ПОКУПАТЕЛЮ
+
+                        <img id="footer__dropdown__img4" src="./icons/Vector.png" alt="">
+                    </button>
+                    <hr>
+                    <div class="footer__dropdown-content" id="myFooterDropdown4">
+                        <div><a href="#">Избранное
+
+                        </a></div>
+                        <hr>
+                        <div><a href="#">Публичная оферта
+                        </a></div>
+                        <div><a href="#">Политика конфиденциальности
+                        </a></div>
+                    </div>
+                </div>
+                <div class="footer__dropdown">
+                    <button class="footer__dropbtn" > КОНТАКТЫ
+
+                        <img id="footer__dropdown__img3" src="./icons/Vector.png" alt="">
+                    </button>
+                    <hr>
+                    <div class="footer__dropdown-content" id="myFooterDropdown3">
+                        <div><a href="#"><img src="./icons/insta.png" alt="">
+                        </a>
+                            <a href="#"><img src="./icons/telegram.png" alt="">
+                            </a>
+                        </div>
+                        <hr>
+                        <div><a href="tel:+38(073) 096 36 44">+38(073) 096 36 44</a></div>
+                        <div><a href="mailto:info@yanki.com">info@yanki.com
+                        </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
