@@ -14,45 +14,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <title>Catalog</title>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper catalogWrapper">
         <nav class="navbar">
             <div class="container">
                 <div class="navbar__wrap">
                     <ul class="menu__list" id="menu">
                         <div class="hamburger" id="hamb">
                             <div class="hamb__field">
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                                <div class="secondPart">
-                                    <li><a href="" class="menu__link">ОПЛАТА И ДОСТАВКА</a></li>
-                                    <li><a href="" class="menu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
-                                    <li><a href="" class="menu__link">КОНТАКТЫ</a></li>
-                                </div>
+                                <span class="bar catBar"></span>
+                                <span class="bar catBar"></span>
+                                <span class="bar catBar"></span>
+
                             </div>
                         </div>
-                        <li><a href="" class="menu__link">NEW</a></li>
-                        <li><a href="" class="menu__link">КАТАЛОГ</a></li>
-                        <li><a href="" class="menu__link">О НАС</a></li>
-
+                        <li><a href="" class="catalogMenu__link">NEW</a></li>
+                        <li><a href="" class="catalogMenu__link">КАТАЛОГ</a></li>
+                        <li><a href="" class="catalogMenu__link">О НАС</a></li>
+                        <div class="secondPart">
+                            <li><a href="" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
+                            <li><a href="" class="catalogMenu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
+                            <li><a href="" class="catalogMenu__link">КОНТАКТЫ</a></li>
+                        </div>
                     </ul>
 
-                    <div class="logo">
-                        YANKI
+                    <div>
+                        <a href="../../index.html" class="catalogLogo">YANKI</a>
                     </div>
                     <div class="header__dropdown">
                         <div class="language">
                             <div class="dropdown" onclick="myFunction()">
-                                <button class="dropbtn" > RU
+                                <button class="dropbtn catDropBtn" > RU
 
                                     <img id="dropdown__img" src="../../icons/Vector2.png" alt="">
                                 </button>
 
-                                <div class="dropdown-content" id="myDropdown">
+                                <div class="dropdown-content catDropdown-content" id="myDropdown">
                                     <a href="#">EN</a>
                                     <hr>
                                     <a href="#">UA</a>
@@ -61,11 +61,11 @@
                         </div>
                         <div class="currency">
                             <div class="dropdown2" onclick="myFunction2()">
-                                <button class="dropbtn" > UAH
+                                <button class="dropbtn catDropBtn" > UAH
 
                                     <img id="dropdown__img2" src="../../icons/Vector2.png" alt="">
                                 </button>
-                                <div class="dropdown-content" id="myDropdown2">
+                                <div class="dropdown-content catDropdown-content" id="myDropdown2">
                                     <a href="#">USD</a>
                                     <hr>
                                     <a href="#">EUR</a>
@@ -86,6 +86,9 @@
         </nav>
         <div class="popup" id="popup"></div>
 </div>
-    <script src="../../js/script.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../../slick/slick.min.js"></script>
+<script src="../../js/script.js"></script>
 </body>
 </html>

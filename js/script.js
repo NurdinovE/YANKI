@@ -85,17 +85,17 @@ $('.categories__items').slick({
     ],
 
 });
-let catUrl = ""
-catUrl.forEach((item) => {
-    function getCatUrl(){
-        let name = document.querySelector(".categories__item__name")
-        let img = document.querySelector(".categories__img")
-        return name.innerHTML = (item.name),
-                img.setAttribute("src",item.image)
-
-
-    }getCatUrl()
-})
+// let catUrl = ""
+// catUrl.forEach((item) => {
+//     function getCatUrl(){
+//         let name = document.querySelector(".categories__item__name")
+//         let img = document.querySelector(".categories__img")
+//         return name.innerHTML = (item.name),
+//                 img.setAttribute("src",item.image)
+//
+//
+//     }getCatUrl()
+// })
 
 
 

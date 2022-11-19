@@ -25,7 +25,7 @@
     width: 35px;
     height: 4px;
     margin-top: 6px;
-    background: #E0BEA2;
+
     transition: 0.2s;
 }
 .bar:nth-child(2){
@@ -58,11 +58,12 @@
     letter-spacing: 4px;
     font-style: normal;
     font-weight: 550;
-    font-size: 66px;
+    font-size: 36px;
     line-height: 47px;
     display: flex;
     color: #E0BEA2;
     align-items: center;
+    text-decoration: none;
 }
 .menu__list{
     display: flex;
