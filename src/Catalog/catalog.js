@@ -75,7 +75,7 @@ async function catContent() {
     };allCatNames()
 }catContent()
 
-
+//
 let brandId
 function brandFunc(id){
     brandId = id
