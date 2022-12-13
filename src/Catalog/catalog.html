@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Catalog</title>
+    <title>Каталог</title>
 </head>
 <body>
 <div class="wrapper catalogWrapper">
@@ -31,12 +31,12 @@
 
                             </div>
                         </div>
-                        <li><a href="" class="catalogMenu__link">NEW</a></li>
-                        <li><a href="" class="catalogMenu__link">КАТАЛОГ</a></li>
+                        <li><a href="../../index.html" class="catalogMenu__link">NEW</a></li>
+                        <li><a href="" class="catalogMenu__link" style="color: #E0BEA2;" >КАТАЛОГ</a></li>
                         <li><a href="" class="catalogMenu__link">О НАС</a></li>
                         <div class="secondPart">
-                            <li><a href="" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
-                            <li><a href="" class="catalogMenu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
+                            <li><a href="../../src/Payment%20and%20delivery/delivery.html" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
+                            <li><a href="../../src/Exchange%20and%20return/exchange.html" class="catalogMenu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
                             <li><a href="" class="catalogMenu__link">КОНТАКТЫ</a></li>
                         </div>
                     </ul>
@@ -86,9 +86,114 @@
         </nav>
         <div class="popup" id="popup"></div>
 </div>
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__title">
+            Главная <span>></span> Каталог
+        </div>
+        <div class="catalog__body">
+            <div class="catalogList">
+                <div class="dropdown2" onclick="myFunction2()">
+                    <button class="dropbtn catListBtn" > Каталог
+
+                        <img id="catDropdownImg" src="../../icons/Vector2.png" alt="">
+                    </button>
+                    <div class="dropdown-content catDropdown-contentList" id="myCatDropdownList">
+                        <form method="get" class="catForm">
+                            <a href="#">New</a>
+                            <a href="#">Bestsellers</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="catalogBody">
+                <div class="catBodySort">
+
+                </div>
+                <div class="catBodyItems">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer class="footer catalogFooter">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__dropdown" onclick="myFooterFunction()">
+                <button class="footer__dropbtn" > КОМПАНИЯ
+
+                    <img id="footer__dropdown__img1" src="../../icons/Vector.png" alt="">
+                </button>
+                <hr>
+                <div class="footer__dropdown-content" id="myFooterDropdown1">
+                    <div><a href="#">О нас
+                    </a></div>
+                    <hr>
+                    <div><a href="#">Контакты</a></div>
+                </div>
+            </div>
+            <div class="footer__dropdown" onclick="myFooterFunction()">
+                <button class="footer__dropbtn" > ПОЛЕЗНОЕ
+
+                    <img id="footer__dropdown__img2" src="../../icons/Vector.png" alt="">
+                </button>
+                <hr>
+                <div class="footer__dropdown-content" id="myFooterDropdown2">
+                    <div><a href="#">Оплата и доставка
+
+                    </a></div>
+                    <hr>
+                    <div><a href="#">Условия возврата
+                    </a></div>
+                    <div><a href="#">Бонусная система
+                    </a></div>
+                </div>
+            </div>
+            <div class="footer__dropdown" onclick="myFooterFunction()">
+                <button class="footer__dropbtn" > ПОКУПАТЕЛЮ
+
+                    <img id="footer__dropdown__img4" src="../../icons/Vector.png" alt="">
+                </button>
+                <hr>
+                <div class="footer__dropdown-content" id="myFooterDropdown4">
+                    <div><a href="#">Избранное
+
+                    </a></div>
+                    <hr>
+                    <div><a href="#">Публичная оферта
+                    </a></div>
+                    <div><a href="#">Политика конфиденциальности
+                    </a></div>
+                </div>
+            </div>
+            <div class="footer__dropdown">
+                <button class="footer__dropbtn" > КОНТАКТЫ
+
+                    <img id="footer__dropdown__img3" src="../../icons/Vector.png" alt="">
+                </button>
+                <hr>
+                <div class="footer__dropdown-content" id="myFooterDropdown3">
+                    <div><a href="#"><img src="../../icons/insta.png" alt="">
+                    </a>
+                        <a href="#"><img src="../../icons/telegram.png" alt="">
+                        </a>
+                    </div>
+                    <hr>
+                    <div><a href="tel:+38(073) 096 36 44">+38(073) 096 36 44</a></div>
+                    <div><a href="mailto:info@yanki.com">info@yanki.com
+                    </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../../slick/slick.min.js"></script>
-<script src="../../js/script.js"></script>
+<script src="catalog.js"></script>
 </body>
 </html>

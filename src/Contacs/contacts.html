@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
@@ -14,9 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Условия возврата</title>
 </head>
 <body>
 <div class="wrapper catalogWrapper">
@@ -36,9 +35,9 @@
                     <li><a href="" class="catalogMenu__link">КАТАЛОГ</a></li>
                     <li><a href="" class="catalogMenu__link">О НАС</a></li>
                     <div class="secondPart">
-                        <li><a href="../Payment%20and%20delivery/delivery.html" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
-                        <li><a href="" class="catalogMenu__link" style="color: #E0BEA2;">УСЛОВИЯ ВОЗВРАТА</a></li>
-                        <li><a href="" class="catalogMenu__link">КОНТАКТЫ</a></li>
+                        <li><a href="../../src/Payment%20and%20delivery/delivery.html" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
+                        <li><a href="../../src/Exchange%20and%20return/exchange.html" class="catalogMenu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
+                        <li><a href="" class="catalogMenu__link"  style="color: #E0BEA2;" >КОНТАКТЫ</a></li>
                     </div>
                 </ul>
 
@@ -87,27 +86,76 @@
     </nav>
     <div class="popup" id="popup"></div>
 </div>
-<section>
+<section class="contacts">
     <div class="container">
-        <div class="exchange__title">
-            Главная <span>></span> Обмен и воврат
+        <div class="catalog__title">
+            Главная <span>></span> Контакты
         </div>
-        <div class="exSubtitle">
-            Если вам не подошел заказ, мы с удовольствием вам его обменяем или примем возврат <br>
-            <br>
-            Обмен и возврат возможен в случае :
+        <div class="contactSubtitle">
+            Связаться с нами
         </div>
-        <div class="exchangeBody">
-            <div class="exchangeItem"><img src="../../icons/first.png" alt=""> <br>если заказ не был использован и сохранил товарный вид(в том числе не нарушены бирки, ярлыки, упаковочные материалы)</div>
-            <div class="exchangeItem"><img src="../../icons/second.png" alt=""><br>возврат и обмен осуществляется в течение двух дней с момента получения заказа
+        <div class="contactBody">
+            <div class="contactItem">
+                <div class="contactItemTitle">
+                    В социальных сетях
+                </div>
+                <div class="contactInfo">
+                    <div><a href="#"><img src="../../icons/insta.png" alt="">
+                    </a>
+                        <a href="#"><img src="../../icons/telegram.png" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="exchangeItem"><img src="../../icons/forth.png" alt=""><br>возврат и обмен товара возможен только при отправке по Украине
+            <div class="contactItem">
+                <div class="contactItemTitle">
+                    По телефону
+                </div>
+                 <div class="contactInfo">
+                    <div><a href="#">+38(067) 158 82 66
+                    </a>
+                        <br>
+                        <br>
+                        <a href="#">+38(073) 226 39 81
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="exchangeItem"><img src="../../icons/fourth.png" alt=""><br>бланк возврата присутствует в каждой посылке </div>
-            <div class="exchangeItem"><img src="../../icons/fifth.png" alt=""><br>все расходы по обмену и возврату товара несет покупатель
+            <div class="contactItem">
+                <div class="contactItemTitle">
+                    По почте
+                </div>
+                 <div class="contactInfo">
+                    <div><a href="#">example@gmail.com
+                    </a>
+                    </div>
+                </div>
             </div>
-            <div class="exchangeItem"><img src="../../icons/sixth.png" alt=""><br>после получения возврата мы делаем перевод денежных средств на карту клиента</div>
+            <div class="contactItem">
+                <div class="contactItemTitle">
+                    Наш офис
+                </div>
+                 <div class="contactInfo">
+                    <div><a href="#">г. Киев, улица Батумская, 18
+                    </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
+</section>
+<section class="response">
+    <div class="response__title">
+        Узнайте  первым о новинках
+    </div>
+    <div class="response__info">
+        <div><input class="response__field" type="text" placeholder="Ваш e-mail*"></div>
+        <a class="response__button" href="">ПОДПИСАТЬСЯ</a>
+        <p class="response__accept">
+            Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с условиями конфиденциальности.
+
+        </p>
     </div>
 </section>
 <footer class="footer catalogFooter">
@@ -167,9 +215,12 @@
                 </button>
                 <hr>
                 <div class="footer__dropdown-content" id="myFooterDropdown3">
-                    <div><a href="#"><img src="../../icons/insta.png" alt="">
-                    </a>
-                        <a href="#"><img src="../../icons/telegram.png" alt="">
+                    <div>
+                        <a href="#">
+                            <img src="../../icons/insta.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="../../icons/telegram.png" alt="">
                         </a>
                     </div>
                     <hr>
@@ -181,6 +232,6 @@
         </div>
     </div>
 </footer>
-<script src="exchange.js"></script>
+<script src="contacts.js"></script>
 </body>
 </html>

@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Личный кабинет</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+<div class="wrapper catalogWrapper">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__wrap">
+        <ul class="menu__list" id="menu">
+          <div class="hamburger" id="hamb">
+            <div class="hamb__field">
+              <span class="bar catBar"></span>
+              <span class="bar catBar"></span>
+              <span class="bar catBar"></span>
+
+            </div>
+          </div>
+          <li><a href="../../index.html" class="catalogMenu__link">NEW</a></li>
+          <li><a href="../Catalog/catalog.html" class="catalogMenu__link">КАТАЛОГ</a></li>
+          <li><a href="" class="catalogMenu__link">О НАС</a></li>
+          <div class="secondPart">
+            <li><a href="../Payment%20and%20delivery/delivery.html" class="catalogMenu__link">ОПЛАТА И ДОСТАВКА</a></li>
+            <li><a href="../Exchange%20and%20return/exchange.html" class="catalogMenu__link">УСЛОВИЯ ВОЗВРАТА</a></li>
+            <li><a href="" class="catalogMenu__link"  style="color: #E0BEA2;" >КОНТАКТЫ</a></li>
+          </div>
+        </ul>
+
+        <div>
+          <a href="../../index.html" class="catalogLogo">YANKI</a>
+        </div>
+        <div class="header__dropdown">
+          <div class="language">
+            <div class="dropdown" onclick="myFunction()">
+              <button class="dropbtn catDropBtn" > RU
+
+                <img id="dropdown__img" src="../../icons/Vector2.png" alt="">
+              </button>
+
+              <div class="dropdown-content catDropdown-content" id="myDropdown">
+                <a href="#">EN</a>
+                <hr>
+                <a href="#">UA</a>
+              </div>
+            </div>
+          </div>
+          <div class="currency">
+            <div class="dropdown2" onclick="myFunction2()">
+              <button class="dropbtn catDropBtn" > UAH
+
+                <img id="dropdown__img2" src="../../icons/Vector2.png" alt="">
+              </button>
+              <div class="dropdown-content catDropdown-content" id="myDropdown2">
+                <a href="#">USD</a>
+                <hr>
+                <a href="#">EUR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__assets">
+          <ul class="assets">
+            <li><a href="#" class="assets__link"><img src="../../icons/search2.png" alt=""></a></li>
+            <li><a href="#" class="assets__link"><img src="../../icons/acc2.png" alt=""></a></li>
+            <li><a href="#" class="assets__link"><img src="../../icons/favorites2.png" alt=""></a></li>
+            <li><a href="#" class="assets__link"><img src="../../icons/korzina2.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="popup" id="popup"></div>
+</div>
+
+<section class="personal">
+  <div class="container">
+    <div class="catalog__title">
+      Главная <span>></span> Личный кабинет
+    </div>
+    <div class="personalBody">
+      <div class="tab">
+        <button class="tabLinks" onclick="openCity(event, 'History')">История заказов</button>
+        <button class="tabLinks" onclick="openCity(event, 'Form')">Личные данные</button>
+        <button class="tabLinks" onclick="openCity(event, 'Tokyo')">Выйти</button>
+      </div>
+
+      <div id="History" class="tabContent">
+        <div class="dropdown" onclick="myDropFunction()">
+
+          <button class="dropbtn perDropbtn" > № 718 от 28.09.21
+            <span class="status">
+              Статус: <br>
+              <b>Отменён</b>
+            </span>
+            <span class="historyPrice">
+                  9450 грн
+            </span>
+
+            <img class="brownArrow"  id="dropdownImgBrown" src="../../icons/brownArrow.png" alt="">
+          </button>
+
+          <div class="dropdown-content dropdown-contentHistory" id="myDropdownHistory">
+            <div class="historyInfo">
+              <div class="historyLink">
+                <img src="../../image/coat.png" alt="">
+                <span class="historyName">Кремовое пальто</span>
+                <span class="historyColorLine">
+                </span>
+                <span class="historySize">
+                  Размер: L
+                </span>
+                <span class="historyQuantity">
+                  Количество: 3
+                </span>
+                <span class="historyPrice">
+                  9450 грн
+                </span>
+              </div>
+            </div>
+            <hr class="historyLine">
+            <div class="historyInfo">
+              <div class="historyLink">
+                <img src="../../image/coat.png" alt="">
+                <span class="historyName">Кремовое пальто</span>
+                <span class="historyColorLine">
+                </span>
+                <span class="historySize">
+                  Размер: L
+                </span>
+                <span class="historyQuantity">
+                  Количество: 3
+                </span>
+                <span class="historyPrice">
+                  9450 грн
+                </span>
+              </div>
+          </div>
+
+        </div>
+          <hr class="historyLine">
+      </div>
+        <div class="dropdown" onclick="myDropFunction2()">
+          <button class="dropbtn perDropbtn" > № 718 от 28.09.21
+            <span class="status">
+              Статус: <br>
+              <b>Отменён</b>
+            </span>
+            <span class="historyPrice">
+                  9450 грн
+            </span>
+
+            <img class="brownArrow" id="dropdownImgBrown2" src="../../icons/brownArrow.png" alt="">
+          </button>
+
+          <div class="dropdown-content dropdown-contentHistory" id="myDropdownHistory2">
+            <div class="historyInfo">
+              <div class="historyLink">
+                <img src="../../image/coat.png" alt="">
+                <span class="historyName">Кремовое пальто</span>
+                <span class="historyColorLine">
+                </span>
+                <span class="historySize">
+                  Размер: L
+                </span>
+                <span class="historyQuantity">
+                  Количество: 3
+                </span>
+                <span class="historyPrice">
+                  9450 грн
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr class="historyLine">
+        </div>
+        <div class="dropdown" onclick="myDropFunction3()">
+          <button class="dropbtn perDropbtn" > № 718 от 28.09.21
+            <span class="status">
+              Статус: <br>
+              <b>Отменён</b>
+            </span>
+            <span class="historyPrice">
+                  9450 грн
+            </span>
+
+            <img class="brownArrow"  id="dropdownImgBrown3" src="../../icons/brownArrow.png" alt="">
+          </button>
+
+          <div class="dropdown-content  dropdown-contentHistory" id="myDropdownHistory3">
+            <div class="historyInfo">
+              <div class="historyLink">
+                <img src="../../image/coat.png" alt="">
+                <span class="historyName">Кремовое пальто</span>
+                <span class="historyColorLine">
+                </span>
+                <span class="historySize">
+                  Размер: L
+                </span>
+                <span class="historyQuantity">
+                  Количество: 3
+                </span>
+                <span class="historyPrice">
+                  9450 грн
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr class="historyLine">
+        </div>
+        <div class="dropdown" onclick="myDropFunction4()">
+          <button class="dropbtn perDropbtn" > № 718 от 28.09.21
+            <span class="status">
+              Статус: <br>
+              <b>Отменён</b>
+            </span>
+            <span class="historyPrice">
+                  9450 грн
+            </span>
+
+            <img class="brownArrow"  id="dropdownImgBrown4" src="../../icons/brownArrow.png" alt="">
+          </button>
+
+          <div class="dropdown-content dropdown-contentHistory" id="myDropdownHistory4">
+            <div class="historyInfo">
+              <div class="historyLink">
+                <img src="../../image/coat.png" alt="">
+                <span class="historyName">Кремовое пальто</span>
+                <span class="historyColorLine">
+                </span>
+                <span class="historySize">
+                  Размер: L
+                </span>
+                <span class="historyQuantity">
+                  Количество: 3
+                </span>
+                <span class="historyPrice">
+                  9450 грн
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr class="historyLine">
+        </div>
+
+      </div>
+      <div id="Form" class="tabContent">
+        <form action="" class="formBody">
+          <div class="personalData">
+            <label  class="addressLabel">Персональные данные:</label>
+            <br>
+            <br>
+            <input placeholder="Елизаветта">
+            <input placeholder="Станиславчук">
+            <input placeholder="ella.s97@gmail.com">
+            <input placeholder="+38(067)470 20 66">
+          </div>
+          <div class="address">
+            <label  class="addressLabel">Адрес доставки:</label>
+            <br>
+            <br>
+            <input placeholder="Черновцы">
+            <input placeholder="№4">
+          </div>
+          <button type="submit" class="formSubmit">
+            ОБНОВИТЬ ИНФОРМАЦИЮ
+          </button>
+        </form>
+      </div>
+
+      <div id="Tokyo" class="tabContent">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <footer class="footer catalogFooter">
+    <div class="container">
+      <div class="footer__body">
+        <div class="footer__dropdown" onclick="myFooterFunction()">
+          <button class="footer__dropbtn" > КОМПАНИЯ
+
+            <img id="footer__dropdown__img1" src="../../icons/Vector.png" alt="">
+          </button>
+          <hr>
+          <div class="footer__dropdown-content" id="myFooterDropdown1">
+            <div><a href="#">О нас
+            </a></div>
+            <hr>
+            <div><a href="#">Контакты</a></div>
+          </div>
+        </div>
+        <div class="footer__dropdown" onclick="myFooterFunction()">
+          <button class="footer__dropbtn" > ПОЛЕЗНОЕ
+
+            <img id="footer__dropdown__img2" src="../../icons/Vector.png" alt="">
+          </button>
+          <hr>
+          <div class="footer__dropdown-content" id="myFooterDropdown2">
+            <div><a href="#">Оплата и доставка
+
+            </a></div>
+            <hr>
+            <div><a href="#">Условия возврата
+            </a></div>
+            <div><a href="#">Бонусная система
+            </a></div>
+          </div>
+        </div>
+        <div class="footer__dropdown" onclick="myFooterFunction()">
+          <button class="footer__dropbtn" > ПОКУПАТЕЛЮ
+
+            <img id="footer__dropdown__img4" src="../../icons/Vector.png" alt="">
+          </button>
+          <hr>
+          <div class="footer__dropdown-content" id="myFooterDropdown4">
+            <div><a href="#">Избранное
+
+            </a></div>
+            <hr>
+            <div><a href="#">Публичная оферта
+            </a></div>
+            <div><a href="#">Политика конфиденциальности
+            </a></div>
+          </div>
+        </div>
+        <div class="footer__dropdown">
+          <button class="footer__dropbtn" > КОНТАКТЫ
+
+            <img id="footer__dropdown__img3" src="../../icons/Vector.png" alt="">
+          </button>
+          <hr>
+          <div class="footer__dropdown-content" id="myFooterDropdown3">
+            <div>
+              <a href="#">
+                <img src="../../icons/insta.png" alt="">
+              </a>
+              <a href="#">
+                <img src="../../icons/telegram.png" alt="">
+              </a>
+            </div>
+            <hr>
+            <div><a href="tel:+38(073) 096 36 44">+38(073) 096 36 44</a></div>
+            <div><a href="mailto:info@yanki.com">info@yanki.com
+            </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="personal.js"></script>
+</body>
+</html>
